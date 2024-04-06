@@ -1,0 +1,114 @@
+body {
+    font-family: "Oxanium", cursive;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body::before{
+    content: "";
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+}
+
+.selecao-de-personagens {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 152px);
+    justify-content: center;
+
+}
+
+.selecao-de-personagens .lista-de-personagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.selecao-de-personagens .personagens {
+    display: flex;
+    flex-direction: column;
+    font-size: px;
+    align-items: center;
+    max-width: 585px;
+    gap: 35px;
+
+}
+
+.selecao-de-personagens .personagens .titulo {
+    font-size: 23px;
+    color: #f6eef8;
+    letter-spacing: 4;
+    text-transform: uppercase;
+    border-bottom: 4px solid #180b35;
+    width: 90%;
+    text-align: center;
+
+}
+
+.lista-de-personagens .personagem img {
+    width: 100%;
+    height: 100%
+    
+    
+}
+
+.lista-de-personagens .personagem.selecionado {
+    box-shadow: 0px 0px 24px 5px #0271f7;
+}
+
+.personagem-selecionado {
+    text-align: center;
+    max-width: 530px;
+
+}
+
+.personagem-selecionado .personagem-grande{
+    width: 430px;
+    height: 430px;
+}
+
+.personagem-selecionado .nome-personagem{
+    border-bottom: 4px solid #180b35;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.personagem-selecionado .descricao-personagem{
+    font-size: 20px;
+    line-height: 20px;
+    text-align: justify;
+    margin-top: 2px;
+    width: 500px;
+    
+}
+
+.informacoes-personagem .nome-personagem{
+    color: #4fccdd;
+    font-size: large;
+    
+
+}
+
+/*  
+.personagem-selecionado .personagem-grande{
+    border: 4px solid #1c1335;
+    width: 75%;
+    height: 4;
+}
+*/
