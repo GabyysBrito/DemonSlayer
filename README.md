@@ -18,6 +18,6 @@
 - **CSS**: Estilização visual e animações.
 - **JavaScript**: Implementação da interação ao passar o mouse.
 
-  ## 🌐 Veja o projeto no ar  
+## 🌐 Veja o projeto no ar  
 
 - 🔗Acesse o projeto aqui: [Hashiras - Demon Slayer](https://gabyysbrito.github.io/DemonSlayer/).
